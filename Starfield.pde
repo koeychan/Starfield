@@ -38,7 +38,7 @@ class Particle
     myY = myY + (double)(Math.sin(myAngle)* mySpeed);
   }
   void show() { 
-    ellipse((float)myX, (float)myY,(float) 10,(float)10); 
+    ellipse((float)myX, (float)myY,(float) 5,(float)5); 
     fill (myColor); 
     stroke(0);
     
@@ -58,4 +58,3 @@ class OddballParticle extends Particle{ //inherits from Particle{
   //your code here
 }
 }
-
